@@ -52,7 +52,9 @@ Additional dependencies for the Purism Librem 5:
 - uuu
 
 Additional dependencies for the Xiaomi Pocophone F1 / OnePlus 6 / OnePlus 6T:
-- mkbootimg
+- mkbootimg 
+
+NOTE. Do not use mkbootimg from android-tools, build mkbootimg from pkgbuild instead (or build will failed with missing 'gki' module error).
 
 ```shell-session
 $ git submodule update --init --recursive
