@@ -66,6 +66,9 @@ Builds everything needed for the pinephone image...
 $ make -j8 initramfs-pine64-pinephone.gz
 Generate only the initramfs for the pinephone
 
+$ make -j8 boot-oneplus-fajita.img
+Generate oneplus 6t image
+
 $ make -j8 all
 Generates an image for every supported platform in parallel
 ```
